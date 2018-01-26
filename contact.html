@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>
+Pacific Trails Resort :: Reservations
+</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="pacific.css">
+<!--[if lt IE 9]>
+<script src="http://html5shim.googlecode.com/svn/trunk/html5.js">
+</script>
+<![endif]-->
+</head>
+<body>
+<div id="wrapper">
+<header>
+<h1>Contact Us</h1>
+</header>
+<nav>
+<ul>
+<li><a href="index.html">Home</a></li> 
+<li><a href="rise.html">Rise of eSports</a></li> 
+<li><a href="games.html">Popular Games</a></li> 
+<li><a href="controversy.html">Controversy</a></li>
+<li><a href="contact.html">Contact</a></li>
+<li><a href="links.html">Links</a></li>
+<li><a href="resources.html">Resources</a></li>
+</ul>
+</nav>
+<div id="main">
+<h2>Subscribe To Our Newsletter</h2>
+<h4>Questions can be submitted through the comment box</h4>
+<p class="required">Required information is marked with an asterisk (*).</p>
+<form method="post" action="sendresults.php">
+
+<p><label for="firstname">*First Name: </label>
+<input type="text" name="myFName" id="firstname" required="required"></p>
+
+<p><label for="lastname">*Last Name: </label>
+<input type="text" name="myLName" id="lastname" required="required"></p>
+
+<p><label for="email">*E-mail: </label>
+<input type="email" name="myEmail" id="email" required="required"></p>
+
+<p><label for="phone">Phone: </label>
+<input type="tel" name="myPhone" id="phone"></p>
+
+<label for="comments">Comments: </label>
+<textarea name="myComments" id="comments" rows="2" cols="20"></textarea>
+
+<input type="submit" id="mySubmit">
+
+</form>
+</div>
+<footer>
+<p><em>Copyright &copy;2015 eSports<br>
+<a href="mailto:larry@altman.com">larry@altman.com</a></em></p>
+</footer>
+</div>
+</body>
+</html>
